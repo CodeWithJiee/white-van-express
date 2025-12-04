@@ -1,0 +1,54 @@
+.add-user-container {
+  width: 300px;
+  margin: 50px auto;
+  background: #fff8f6;
+  border: 1px solid #6b0000;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.add-user-container h2{
+  color: #6b0000;
+}
+
+.add-user-container .input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.add-user-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #6b0000;
+}
+
+.add-user-container input,
+.add-user-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #6b0000;
+  border-radius: 6px;
+}
+
+.add-user-container select{
+  background-color:  #fcb908;
+  color: #000000;
+  font-weight: 600;
+}
+
+.add-user-container button {
+  width: 100%;
+  padding: 10px;
+  background: #6b0000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-user-container button:hover {
+  background: #900000;
+  font-weight: 600;
+}

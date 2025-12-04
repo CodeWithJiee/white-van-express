@@ -1,0 +1,151 @@
+.sidebar {
+  background: #530009;
+  color: white;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-open {
+  width: 280px;
+}
+
+.sidebar-closed {
+  width: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1.15rem 1.5rem;
+  background: linear-gradient(135deg, #1b1a1a 0%,#530009 0%);
+  border-bottom: 2px solid rgba(252, 185, 8, 0.2);
+}
+
+
+.sidebar-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  background: #FFFAF7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.sidebar-nav {
+  padding: 1rem 0;
+  overflow-y: auto;
+  flex-grow: 1; /* <-- Add this line */
+}
+
+.nav-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+  border: none;
+  background: transparent;
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 0;
+  background: #530009;
+  border-radius: 0 4px 4px 0;
+  transition: height 0.2s ease;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.nav-item-active {
+  background: #FCB908;
+  color: white;
+}
+
+.nav-item-active::before {
+  height: 100%;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.875rem;
+}
+
+.nav-label {
+  font-weight: 500;
+}
+
+.sidebar-footer {
+  padding: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-footer-text {
+  font-size: 0.75rem;
+  color: #718096;
+  text-align: center;
+}
+.bulsulogo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain; 
+  display: block;
+  margin: 0;
+  border-radius: 50%;
+  background: white;
+}
+.logout-btn {
+  /* --- Layout & Font --- */
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the icon and text */
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  
+  /* --- Appearance (Outlined Style) --- */
+  background: transparent;
+  border: 1px solid #FCB908; /* Use your theme's gold for the border */
+  color: #FCB908;            /* Use gold for the text/icon */
+  border-radius: 8px;         /* Rounded corners */
+  
+  /* --- Interaction --- */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  /* --- Invert on hover --- */
+  background: #FCB908;  /* Fill with gold */
+  color: #530009;      /* Use your dark red for the text/icon */
+}
+
+/* You might need this rule if the icon doesn't change color.
+  It tells the .nav-icon *inside* .logout-btn to inherit
+  the color from the .logout-btn parent.
+*/
+.logout-btn .nav-icon {
+  color: currentColor; 
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #ffba08;
+      }
+
+      .cls-2 {
+        fill: #880312;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #6a040f;
+      }
+    </style>
+  </defs>
+  <rect id="Color_Fill_6" data-name="Color Fill 6" class="cls-1" x="715" y="380" width="291" height="454"/>
+  <path id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M758,386H902v2c3.189,1.978,6.425.926,10,3,0.508,0.3,2.5,3.728,3,4,12.568,6.821,38.435,5.1,49-2V834H758V386Z"/>
+  <path id="Color_Fill_4" data-name="Color Fill 4" class="cls-3" d="M282,446H455V834H107V481h3c0.828,3.245-.49,1.528,2,3,1.455-2.542-.217-1.128,3-2,0.828,3.245-.49,1.528,2,3,1.183-2.067.684-1.882,3-3,4.132,7.746,10.223,1.221,17,3s12.748,1.852,26-3c0.828,3.245-.49,1.528,2,3,2.91-4.187.818-.153,5-1,1.232-1.323-.356-2.592,3-2v2c2.734,0.725.954-1.251,2-2,0.9,0.265,1,2,1,2,2.546,0.308,2.372-2.409,4-3h9c7.537-3.862,20.909-7.351,29-5,0.639-2.962.595-3.69,3-5,4.456,3.67,2.715,1.539,6,0h5v-2c1.96-.533,2.293,1.624,5,2v-4h2c2.986,4.562,11.548-2.076,17-5l9-1c5.674-3.578,9.258-10.105,17-12v-3Zm-18,11c0.8,1.021.355,0.274,1,2h-1v-2Zm-48,15h2v2h-2v-2Zm-28,5c0.8,1.021.355,0.274,1,2h-1v-2Zm-73,4h2v1C115.246,481.369,116.029,481.807,115,481Zm61,0h2v1C176.246,481.369,177.029,481.807,176,481Zm-28,3h2v1C148.246,484.369,149.029,484.807,148,484Z"/>
+  <path id="Color_Fill_3" data-name="Color Fill 3" class="cls-2" d="M414,448V834H146V501c10.338-.153,12.079-6.891,20-9v-3c7.972-3.607,5.595-10.925,18-11,6.479,5.248,29.562,10.142,37,5q0.5-2,1-4c1.132-.856,7.184-2.738,9-3,0.854-5.314,2.767-3.976,5-7,3.086-4.179,1.643-12.166,5-16-1.933-1.732-1.737-.223-2-4h2c5.844-3.62,37.436-1,47-1H414Z"/>
+  <image id="Rectangle_3" data-name="Rectangle 3" x="366" y="521" width="437" height="75" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbUAAABLCAYAAAD3RRkAAAAFWElEQVR4nO3d7VLjNhiG4TeA+O6ghe52oP3Rfz236kB6BD6uzvYEujOw7CwU8LZ8RkA6TkVqHNlxjCGWfF8zmhgbiCI7PH6NDIPRaCTAIhmls2ffEpFNEVkVkRURWXaP+WXfunm2t/m95t3+s4h8EpEHEbl37aHweB/o9qGIXIvIVWJT3ktYKEINtRilV3PBs1XRmmzfZC9EYxxuheZbl2+zto8/J7HpsO+Di9kItUgYpQc1Q6dp8Kz0fYyxcPdNA7HO9sSm/DCMAKHWEa4S2vW0Pc+6HU/obPR9DIEXuvGEXXY99bzQzjzrzqkku4FQa5lRen2OcMq37agGAuifS1/Y5VpZGN5yrLSHUCthlN5sGE78fgjAPG7KAk+qw/CaUZ4WfagZpbcbhtN6B7oPAGXuGobhZcwjGmSoGaWzKdL7rh0UHvPrsuBSHegyAHSFdYH3RUSO3aN3ObHpQ2h7rVOhZpReEX84Fdd96EB3ASB2JyXB92xdYtP7rozDm4Sam9nnC6fi8vtX7wwAoG2ns4LPVX6vPkP0RaFmlF6bcfnvaXmv1V4DAEJ0NuuSp6v87pq+Nm+oGaU3KoIqv26XwwoA0LLzmpXfTfFpB7+u7PwmIj8VwkuzhwAAHZcWAu9zFmp/uj+2CgBAyD4ticgRuxAAEIEjQg0AEAtCDQAQjXGoHbI/AQAROCTUAACxINQAANEg1AAA0Tgc/0URo/QV/wcMABCwq8Sm20uu/8yABACEbJxjhBoAIAaEGgAgGs9CjckiAICQUakBAKJBpQYAiMY4xwg1AEAMCDUAQDT+D7XEphci8o19CwAIUOpybFKpCdUaACBQk8mO+VBjBiQAIESTooxKDQAQOio1AEA0vKFGpQYACBGXHwEA0SDUAADRINQAANGYDrXEptcicsI+BgAE5KvLr7GlQr+ZAQkACMmz3CqGGpcgAQAhqQw1KjUAQEio1AAA0XiWW4QaACBkhBoAIBqEGgAgGoQaACAa5aGW2PRBRD6zrwEAAThyuTVRrNSEag0AEIipvCLUAAChmrq32hdq3IANAAhBrVCjUgMAhIDLjwCAaBBqAIBoEGoAgGhM5dVgNBpNvTij9FBEFPsdANBRw8Sma8Wu+So1oVoDAHScd6Z+WagxrR8A0GXe4otKDQAQorkqNUINANBlVGoAgGgQagCAaHhzaqXk1RFqiMGjiNw1aMOSr7md8+P81zy6k8g119Zzy2/9cdn7HggJoYY3M2wYArcV2xp9v8Smjx3b7ZeL7oBReqnFIF0trJvVfJ/PPbFowptT3puv5b8DP3vzbTHUQRi9MEBaDaDEpn3fH6jJKC0tVqtNQ/WpbVLFBuMysel3vs5W7cBsuuQv/R63N/ePiJxXtDPftsSmdz0bJ0TCnQA9nRD9vehXZZTOwm3X0/ZK1j817w9YvJrSe6mrQu2QUGvsW8NwsoG+XiAK7gTxi2u1GaVVwzDc4chppPRXZLNCre8uGobTQ98HDugTd0L61bXajNLLFYFXFYjven6A9T7UHnNnX6dzhJP/F44A0AJ3AnzqWm1G6cEcYfheRPZdK7uNKzSNLz92XXZAHOcCy7d8nNh0rrMnAOgyd8J95lptRukfROTABdxBLuyKy8sdH4LgKjVbEVKT5cSmJwvsIwAExZ3gZ+33qn4bpT/UCL79Bd6O0ZlQG5ZVU/l1iU3/eoXnBgDU4AqGrH2s+myj9PclYVdct9ryuL96qN3WrKzmKpUBAN3lCpCs/VHVSaP0Xo3g23f3HtZRmk+lN1+7jmRhdD0rsBKbXnDcAQBewiidzeqcdclzI7Hpj97nEZF/AWY59GWmwyUNAAAAAElFTkSuQmCC"/>
+  <rect id="Color_Fill_7" data-name="Color Fill 7" class="cls-4" x="180" y="696" width="193" height="38"/>
+  <rect id="Color_Fill_5" data-name="Color Fill 5" class="cls-1" x="198" y="734" width="158" height="100"/>
+  <rect class="cls-1" x="473" y="310" width="30" height="101"/>
+  <path class="cls-5" d="M30.918,452.281c177.434,79.9,324.566-133.9,502-54l7.164,69.438c-177.434-79.9-324.566,133.9-502,54Z"/>
+  <path class="cls-5" d="M331.993,250.388C564.659,194.282,824.44,411.167,1057.11,355.062q3.945,39.775,7.9,79.55C832.341,490.718,572.56,273.833,339.9,329.938Z"/>
+  <circle class="cls-1" cx="861" cy="540" r="45"/>
+</svg>

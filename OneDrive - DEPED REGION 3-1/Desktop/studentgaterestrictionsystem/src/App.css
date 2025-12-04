@@ -1,0 +1,76 @@
+/* 🎨 Background animations */
+@keyframes float {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(10px, -20px) rotate(5deg); }
+  50% { transform: translate(-20px, 10px) rotate(-5deg); }
+  75% { transform: translate(20px, 20px) rotate(3deg); }
+}
+
+@keyframes float-lg {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -40px) scale(1.05); }
+  50% { transform: translate(-30px, 20px) scale(0.95); }
+  75% { transform: translate(40px, 30px) scale(1.03); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float { animation: float 20s infinite ease-in-out; }
+.animate-float-lg { animation: float-lg 25s infinite ease-in-out; }
+.animate-slideUp { animation: slideUp 0.8s ease-out forwards; }
+
+/* 🌈 Reusable colors */
+.bg-maroon { background-color: #530009; }
+.bg-yellow { background-color: #fcb908; }
+.bg-cream { background-color: #FFFAF7; }
+.text-maroon { color: #530009; }
+.text-dark { color: #212121; }
+
+/* ✨ Form input focus effects */
+.input-focus {
+  background-color: #FFFAF7;
+  border: 2px solid #530009;
+  transition: all 0.3s;
+}
+
+.input-focus:focus {
+  border-color: #FCB908;
+  transform: scale(1.02);
+}
+
+/* 🪄 Button hover */
+.btn-maroon {
+  background-color: #530009;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn-maroon:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(83, 0, 9, 0.3);
+}
+
+.btn-yellow {
+  background-color: #FCB908;
+  color: #212121;
+}
+
+.btn-yellow:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(252, 185, 8, 0.3);
+}
+
+.btn-white {
+  background-color: white;
+  color: #530009;
+  border: 3px solid #530009;
+  transition: all 0.3s;
+}
+
+.btn-white:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(83, 0, 9, 0.25);
+}

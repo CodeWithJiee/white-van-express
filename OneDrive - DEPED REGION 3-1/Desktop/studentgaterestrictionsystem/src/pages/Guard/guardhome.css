@@ -1,0 +1,39 @@
+/* body {
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #fff8f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black
+} */
+
+
+.h1{
+    color:black;
+}
+
+button {
+width: 100%;
+  background-color: #6b0000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button {
+width: 100%;
+  background-color: #6b0000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
